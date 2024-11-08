@@ -1,5 +1,5 @@
 
-public class Ex001_PrintArgs {
+public class Ex000_PrintArgs {
 
 	public static void main(String [] args) { 
 		for( String arg : args ) {
