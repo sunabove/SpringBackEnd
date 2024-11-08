@@ -1,5 +1,5 @@
 
-public class Ex004_IntOperatorExample {
+public class Ex006_IntegerOperatorExample {
 
 	public static void main(String[] args) {
 		int a = 2 ; 

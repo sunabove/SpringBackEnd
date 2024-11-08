@@ -1,5 +1,5 @@
 
-public class Ex004_RemainderExample {
+public class Ex010_RemainderExample {
 	
 	public static void main(String [] args) { 
 		int result = 10 % 3;  // 결과는 1 (10을 3으로 나누었을 때의 나머지)

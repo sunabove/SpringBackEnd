@@ -1,5 +1,5 @@
 
-public class Ex007_CompareExample {
+public class Ex008_CompareExample {
 
 	public static void main(String[] args) {
 		System.out.println( 1 == 1 ) ;

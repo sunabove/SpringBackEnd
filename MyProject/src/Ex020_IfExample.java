@@ -1,5 +1,5 @@
 
-public class Ex010_IfExample {
+public class Ex020_IfExample {
 
 	public static void main(String[] args) {
 		if( 1 > 2 ) {

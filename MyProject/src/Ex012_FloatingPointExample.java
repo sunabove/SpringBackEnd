@@ -1,4 +1,4 @@
-public class Ex006_FloatingPointExample {
+public class Ex012_FloatingPointExample {
     public static void main(String[] args) {
         // float 타입 변수 선언 및 초기화
         float f1 = 3.14F;          // 값 뒤에 F를 붙여야 함
