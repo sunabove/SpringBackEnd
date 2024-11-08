@@ -5,6 +5,7 @@ target/
 !**/src/test/**/target/
 
 **/.metadata/**
+**/bin/**
 
 ### STS ###
 .apt_generated
@@ -85,4 +86,8 @@ local.properties
 .metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/MyProject/2024/11/45/refactorings.index
 .metadata/.plugins/org.eclipse.m2e.logback/0.log
 .metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties
+.metadata/version.ini
+.metadata/.log
+.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt
+.metadata/.plugins/org.eclipse.m2e.logback/0.log
 .metadata/version.ini
