@@ -14,5 +14,7 @@ public class Ex004_RemainderExample {
 		System.out.println( "b = " + b ) ;
 		System.out.println( "c = " + c ) ;
 		
+		int angle = 390 % 365 ;
+		System.out.println( "angle = " + angle ) ;
 	}
 }

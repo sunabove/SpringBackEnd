@@ -11,3 +11,7 @@
 1731026670350	Copy compilation unit
 1731027664251	Rename type 'Ex002_IntegerExample'
 1731027678870	Rename type 'Ex001_StringCharExample'
+1731029357353	Rename local variable 'floatNumber'
+1731029362923	Rename local variable 'anotherFloatNumber'
+1731029371557	Rename local variable 'doubleNumber'
+1731029377067	Rename local variable 'anotherDoubleNumber'
