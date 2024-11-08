@@ -91,3 +91,4 @@ local.properties
 .metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt
 .metadata/.plugins/org.eclipse.m2e.logback/0.log
 .metadata/version.ini
+.metadata/.mylyn/tasks.xml.zip
