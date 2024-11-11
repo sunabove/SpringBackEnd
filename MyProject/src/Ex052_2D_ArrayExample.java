@@ -1,7 +1,9 @@
 public class Ex052_2D_ArrayExample {
     public static void main(String[] args) {
         // 2차원 배열 선언 및 초기화
-        int[][] matrix = {
+    	// int [] [] matrix ;
+    	
+        int [] [] matrix = {
             {1, 2, 3},
             {4, 5, 6},
             {7, 8, 9}

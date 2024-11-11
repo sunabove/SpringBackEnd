@@ -1,12 +1,10 @@
-public class Ex030_DoWhileExample {
-	
+public class Ex027_WhileForInfiniteExample2 {
     public static void main(String[] args) {
         int count = 1;
 
-        do {
+        for( ; 0 == 0 ; ) { // 조건이 항상 true이므로 무한 루프 발생
             System.out.println("Count: " + count);
             count++;
-        } while ( count < 10 );
+        }
     }
-    
 }
