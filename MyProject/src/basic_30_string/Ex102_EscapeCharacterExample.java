@@ -12,9 +12,9 @@ public class Ex102_EscapeCharacterExample {
         String filePath = "C:\\Program Files\\JavaABC\b"; 
 
         // 결과 출력
-        System.out.println(message);
-        System.out.println(quote);
-        System.out.println(singleQuote);
-        System.out.println(filePath);
+        System.out.println( message );
+        System.out.println( quote );
+        System.out.println( singleQuote );
+        System.out.println( filePath );
     }
 }
