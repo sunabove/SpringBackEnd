@@ -8,6 +8,8 @@ target/
 .metadata/**
 .metadata/plugins/**
 
+**/.settings
+
 **/bin/**
 
 ### STS ###
