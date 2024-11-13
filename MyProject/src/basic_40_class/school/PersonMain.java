@@ -1,4 +1,4 @@
-package basic_40_class.society;
+package basic_40_class.school;
 
 public class PersonMain {
 

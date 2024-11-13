@@ -1,4 +1,4 @@
-package basic_40_class.society;
+package basic_40_class.school;
 
 public class PersonMultipleConstructor {
 	
@@ -8,7 +8,7 @@ public class PersonMultipleConstructor {
 
     // 생성자 1
     public PersonMultipleConstructor() {
-        this( "", 0 ); // 생성자 2 호출 
+    	this( "", 0 ); // 생성자 2 호출 
         
         this.name = "" ;
         this.age = 0 ;
