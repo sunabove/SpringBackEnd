@@ -5,7 +5,7 @@ import java.text.DecimalFormat;
 public class Ex122_DecimalFormatExample {
     public static void main(String[] args) {
         // 1. 기본 형식 지정
-        DecimalFormat df = new DecimalFormat("#.##");
+        DecimalFormat df = new DecimalFormat("#.###");
         double pi = 3.141592;
         System.out.println("소수점 이하 두 자리: " + df.format(pi));  // 출력: 소수점 이하 두 자리: 3.14
 

@@ -3,9 +3,12 @@ package basic_30_string;
 public class Ex120_StringFormatExample {
     public static void main(String[] args) {
         // 1. 정수 포매팅
-        int number = 42;
+        int number = 123456;
         String formattedInt = String.format("정수: %d", number);
         System.out.println(formattedInt); // 출력: 정수: 42
+        
+        String formattedIntComma = String.format("정수: %,d", number);
+        System.out.println(formattedIntComma); // 출력: 정수: 42
 
         // 2. 소수점 이하 자리수 지정
         double pi = 3.141592;
