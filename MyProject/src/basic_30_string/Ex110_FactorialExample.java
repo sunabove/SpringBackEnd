@@ -10,7 +10,7 @@ public class Ex110_FactorialExample {
 	}
 
 	public static void main(String[] args) {
-		long f = factorial( 5 ) ; 
+		long f = factorial( 20 ) ; 
 		
 		System.out.println( f ); 
 	}
