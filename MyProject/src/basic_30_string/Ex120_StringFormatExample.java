@@ -11,7 +11,7 @@ public class Ex120_StringFormatExample {
         System.out.println(formattedIntComma); // 출력: 정수: 42
 
         // 2. 소수점 이하 자리수 지정
-        double pi = 3.141592;
+        double pi = 123456789012345678.141592;
         String formattedDouble = String.format("Pi=%.4f", pi); // 소수점 이하 2자리까지 표시
         System.out.println(formattedDouble); // 출력: Pi: 3.14
         
