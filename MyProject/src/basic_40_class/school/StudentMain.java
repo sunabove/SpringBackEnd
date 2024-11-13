@@ -1,6 +1,5 @@
 package basic_40_class.school;
 
-//Student 클래스 (Person 클래스를 상속)
 public class StudentMain { 
 	
 	public static void main(String[] args) {
