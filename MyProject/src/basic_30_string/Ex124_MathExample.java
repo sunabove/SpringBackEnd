@@ -35,8 +35,17 @@ public class Ex124_MathExample {
 		System.out.println("round(" + number2 + ") = " + Math.round(number2)); // 결과: 6
 		System.out.println("ceil(" + number1 + ") = " + Math.ceil(number1)); // 결과: 6.0
 		System.out.println("floor(" + number1 + ") = " + Math.floor(number1)); // 결과: 5.0
-
+		
 		// 7. 난수 생성
 		System.out.println("random() = " + Math.random()); // 0.0 이상 1.0 미만의 난수 출력
+		
+		double d = 1.6 ;
+		
+		double d2 = (int) d ;
+		double d3 = (int) ( d + 0.5 ) ; 
+		
+		System.out.println( "d2 = " + d2 ) ;
+		System.out.println( "d3 = " + d3 ) ;
+		
 	}
 }
