@@ -3,8 +3,7 @@ package basic_40_class.school;
 public class Person {
 	
     // 속성(필드)
-    private String name; // 이름
-    
+    public String name; // 이름
     private int age; // 나이
 
     // 생성자
@@ -32,6 +31,10 @@ public class Person {
     // 메서드: 사람의 정보를 출력하는 메서드
     public void showInfo() {
         System.out.println("이름: " + name + ", 나이: " + age);
+    }
+    
+    public Person clone() {
+    	return new Person( this.name, this.age ) ; 
     }
     
 } 
