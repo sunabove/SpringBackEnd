@@ -4,6 +4,7 @@ public class Person {
 	
     // 속성(필드)
     private String name; // 이름
+    
     private int age; // 나이
 
     // 생성자

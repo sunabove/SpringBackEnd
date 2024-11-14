@@ -4,20 +4,26 @@ public class PersonMain {
 
 	public static void main(String[] args) {
 		// Person 객체 생성
-		Person person = new Person( "Alice", 25 );
+		Person person1 = new Person( "Alice a", 25 ) ; // 10
+		Person person2 = new Person( "Alice b", 26 ) ; // 20
+		Person person3 = new Person( "Alice c", 27 ) ; // 30
 		
-		int age = person.getAge() ;
+		Person person4 = person3 ;
+		
+		person4 = person1 ; 
+		
+		int age = person1.getAge() ;
+		
         System.out.println( "age = " + age );
         
-        String name = person.getName();
+        String name = person1.getName();
         System.out.println( "name = " + name );
         
-        person.showInfo();
+        person1.showInfo();
         
-        // 생일을 맞이함.
-        person.haveBirthday();
+        person1.haveBirthday(); // 생일을 맞이함.
         
-        person.showInfo();
+        person1.showInfo();
 	}
 
 }
