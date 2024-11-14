@@ -5,10 +5,17 @@ public class NullPointerExceptionExample {
 	public static void main(String[] args) { 
 		
 		String str = null;
-		str.length();  // NullPointerException 발생
+		
+		if( str == null ) { 
+			System.out.println( "str은 null 입니다.") ; 
+		}
 		
 		int[] arr = null;
-		int num = arr[0];  // NullPointerException 발생
+		if( arr == null ) {
+			System.out.println( "arr은 null 입니다.") ; 
+		} else {
+			int num = arr[0]; 
+		}
 		
 	}
 
