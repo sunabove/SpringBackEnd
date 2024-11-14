@@ -9,14 +9,16 @@ public class Ex202_VarExample {
         var fruits = new String[] {"Apple", "Banana", "Cherry"};  // String[] 타입으로 추론
 
         // 출력
-        System.out.println("Name: " + name);
-        System.out.println("Age: " + age);
-        System.out.println("Height: " + height);
+        System.out.println( "Name: " + name );
+        System.out.println( "Age: " + age );
+        System.out.println( "Height: " + height );
         
         System.out.print("Fruits: ");
-        for (var fruit : fruits) {      // 각 요소의 타입도 자동 추론
-            System.out.print( fruit + ", ");
+        
+        for( var fruit : fruits ) {      // 각 요소의 타입도 자동 추론
+            System.out.print( fruit + ", ") ;
         }
+        
         System.out.println(); 
     }
 }
