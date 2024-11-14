@@ -1,4 +1,4 @@
-package basic_46.enumeration;
+package basic_48.enumeration;
 
 public class LevelEnumExample {
 	
