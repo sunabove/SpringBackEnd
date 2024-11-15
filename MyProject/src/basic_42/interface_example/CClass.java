@@ -11,10 +11,6 @@ public class CClass implements AInterface, BInterface {
 		CClass c  = new CClass();
 		
 		System.out.println( "Hello ..." );
-	} 
-
-	@Override
-	public void playGame() { 
-	} 
+	}  
 
 }
