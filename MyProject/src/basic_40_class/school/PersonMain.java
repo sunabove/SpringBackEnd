@@ -10,9 +10,7 @@ public class PersonMain {
 		
 		Person person3 = person ;
 		
-		int age = person.getAge() ;
-		
-		String name = person.name ;
+		int age = person.getAge() ; 
 		
         System.out.println( "age = " + age );
         

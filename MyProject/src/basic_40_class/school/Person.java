@@ -1,10 +1,13 @@
 package basic_40_class.school;
 
-public class Person {
+public class Person extends Object {
 	
     // 속성(필드)
-    public String name; // 이름
+    private String name; // 이름
     private int age; // 나이
+    
+    public Person() { 
+    }
 
     // 생성자
     public Person(String name, int age) {

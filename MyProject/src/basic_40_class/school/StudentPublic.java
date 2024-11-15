@@ -1,8 +1,10 @@
 package basic_40_class.school;
 
 public class StudentPublic extends Person {
+	
 	// 필드
-	public String studentId; // 어디서나 접근 가능
+	public  String studentId; // 어디서나 접근 가능
+	
 	private String major; // Student 클래스 내부에서만 접근 가능
 
 	// 생성자
@@ -22,8 +24,9 @@ public class StudentPublic extends Person {
 		StudentPublic student = new StudentPublic("John", 21, "S12345", "Mathematics");
 
 		// public 필드와 메서드에 접근 가능
-		System.out.println("학생 ID: " + student.studentId);
+		System.out.println("학생 ID: " + student.studentId );
 		System.out.println("전공: " + student.major );
  
 	}
+	
 }
