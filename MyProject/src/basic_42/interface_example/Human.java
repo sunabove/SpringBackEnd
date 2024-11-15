@@ -1,7 +1,7 @@
 package basic_42.interface_example;
 
 //Human 인터페이스 정의 - 공통적인 특성을 정의
-interface HumanPersonStudentInterface {
+interface Human {
 	// 이름을 반환하는 메소드
 	String getName();
 
@@ -10,7 +10,7 @@ interface HumanPersonStudentInterface {
 }
 
 //Person 클래스 - Human 인터페이스 구현
-class Person implements HumanPersonStudentInterface {
+class Person implements Human {
 	protected String name;
 	protected int age;
 
@@ -33,7 +33,7 @@ class Person implements HumanPersonStudentInterface {
 }
 
 //Student 클래스 - Human 인터페이스 구현, Person과 다른 특성 추가
-class Student implements HumanPersonStudentInterface {
+class Student implements Human {
 	private String name;
 	private int age;
 	private String studentId;

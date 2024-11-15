@@ -2,9 +2,11 @@ package basic_40_class.school;
 
 public class Person extends Object {
 	
+	public static long totalCount ; // 인구수 
+	
     // 속성(필드)
     private String name; // 이름
-    private int age; // 나이
+    protected int age; // 나이
     
     public Person() { 
     }
@@ -13,16 +15,10 @@ public class Person extends Object {
     public Person(String name, int age) {
         this.name = name;
         this.age = age;
-    }
-
-    // 메서드: 이름을 반환하는 메서드
-    public String getName() {
-        return name;
-    }
-
-    // 메서드: 나이를 반환하는 메서드
-    public int getAge() {
-        return age;
+        
+        Person.totalCount = 10 ; 
+        
+        this.totalCount = 11 ; 
     }
 
     // 메서드: 나이를 1살 증가시키는 메서드
@@ -39,5 +35,29 @@ public class Person extends Object {
     public Person clone() {
     	return new Person( this.name, this.age ) ; 
     }
+
+	public static long getTotalCount() {
+		return totalCount;
+	}
+
+	public static void setTotalCount(long totalCount) {
+		Person.totalCount = totalCount;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
     
 } 
