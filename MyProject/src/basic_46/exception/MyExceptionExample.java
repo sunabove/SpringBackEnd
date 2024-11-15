@@ -18,7 +18,7 @@ public class MyExceptionExample {
 
 			// 예외를 발생시키는 값 예시
 			checkValue(-5); // 이 줄에서 MyException이 발생
-		} catch (MyException e) {
+		} catch ( MyException e ) {
 			// 예외 처리
 			System.out.println("예외가 발생했습니다: " + e.getMessage());
 		}

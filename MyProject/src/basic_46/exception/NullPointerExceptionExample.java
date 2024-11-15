@@ -7,7 +7,7 @@ public class NullPointerExceptionExample {
 		String str = null;
 		
 		if( str == null ) { 
-			System.out.println( "str은 null 입니다.") ; 
+			System.out.println( "str은 null 입니다.") ;
 		}
 		
 		int[] arr = null;

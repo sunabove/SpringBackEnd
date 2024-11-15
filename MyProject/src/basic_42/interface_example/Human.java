@@ -60,5 +60,13 @@ class Student implements Human {
 	public String getStudentId() {
 		return studentId;
 	}
+	
+	public static void main( String [] args ) {
+		Human a  = new Person( "a", 10 ) ; 
+		
+		Human b  = new Student( "a", 10, "1" ) ; 
+		
+		a.getAge(); 
+	}
 }
 

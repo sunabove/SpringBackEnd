@@ -10,8 +10,10 @@ public class TryCatchExample {
 			
 			int[] arr = null;
 			int num = arr[0];
-		} catch (NullPointerException e) {
-			System.out.println( "NullPointerException이 발생하였습니다." );
+		} catch( NullPointerException e ) {
+			System.out.println( "NullPointerException이 발생하였습니다." ) ;
+			System.out.println( e.getMessage() ) ; 
+			// e.printStackTrace();
 		} 
 		
 	}

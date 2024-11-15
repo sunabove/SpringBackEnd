@@ -2,9 +2,10 @@ package basic_44.rectangle_01;
 
 //Rectangle 클래스 정의
 class Rectangle {
+	
 	// 사각형의 가로와 세로 속성
-	private double width;
-	private double height;
+	private double width ;
+	private double height ;
 
 	// 생성자 (가로와 세로를 설정)
 	public Rectangle(double width, double height) {

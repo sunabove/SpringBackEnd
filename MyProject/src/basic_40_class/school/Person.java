@@ -53,8 +53,8 @@ public class Person extends Object {
 	}
 
 	public int getAge() {
-		return age;
-	}
+		return this.age;
+	} 
 
 	public void setAge(int age) {
 		this.age = age;
